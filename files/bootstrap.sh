@@ -4,7 +4,7 @@ set -e
 
 cd
 
-if [-e $HOME/.bootstrapped]; then
+if [ -f $HOME/.bootstrapped ]; then
   exit 0
 fi
 
